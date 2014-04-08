@@ -41,6 +41,9 @@
     /* IE6-9 */
     color: black; }
 
+.container {
+  padding: 0 0 20px 0; }
+
 .member-panel {
   position: absolute;
   width: 100%;
@@ -49,7 +52,15 @@
   opacity: .7; }
 
 .events-panel {
-  background: #C7D1C7; }
+  background: #C7D1C7 !important; }
+
+footer {
+  background-color: black;
+  padding: 20px 0; }
+
+.copyright-info {
+  color: white;
+  margin: 10px 0; }
 
 /*! normalize.css v2.1.1 | MIT License | git.io/normalize */
 /* ==========================================================================
@@ -403,7 +414,7 @@ body {
   font-size: 100%; }
 
 body {
-  background: white;
+  background: url("../img/agsquare.png");
   color: #222222;
   padding: 0;
   margin: 0;
